@@ -6,4 +6,4 @@ COPY . /heroku
 
 RUN go mod download
 
-CMD 'go run server.go'
+CMD ["go", "run", "server.go"]
