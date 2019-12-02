@@ -6,4 +6,4 @@ COPY . /heroku
 
 RUN go mod download
 
-CMD ['go', 'run', 'bot_echo.go']
+CMD ['go', 'run', 'server.go']
